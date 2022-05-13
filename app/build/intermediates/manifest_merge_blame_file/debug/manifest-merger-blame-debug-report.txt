@@ -1,0 +1,82 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.languagetranslator"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->/Users/sainishwanth/AndroidStudioProjects/LanguageTranslator/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/sainishwanth/AndroidStudioProjects/LanguageTranslator/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/sainishwanth/AndroidStudioProjects/LanguageTranslator/app/src/main/AndroidManifest.xml:4:5-66
+11-->/Users/sainishwanth/AndroidStudioProjects/LanguageTranslator/app/src/main/AndroidManifest.xml:4:22-64
+12
+13    <application
+13-->/Users/sainishwanth/AndroidStudioProjects/LanguageTranslator/app/src/main/AndroidManifest.xml:6:5-26:19
+14        android:allowBackup="true"
+14-->/Users/sainishwanth/AndroidStudioProjects/LanguageTranslator/app/src/main/AndroidManifest.xml:7:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.7.0] /Users/sainishwanth/.gradle/caches/transforms-3/b9e4376e452ce4f1a2bbb1fc4b534124/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->/Users/sainishwanth/AndroidStudioProjects/LanguageTranslator/app/src/main/AndroidManifest.xml:8:9-43
+18        android:label="@string/app_name"
+18-->/Users/sainishwanth/AndroidStudioProjects/LanguageTranslator/app/src/main/AndroidManifest.xml:9:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/Users/sainishwanth/AndroidStudioProjects/LanguageTranslator/app/src/main/AndroidManifest.xml:10:9-54
+20        android:supportsRtl="true"
+20-->/Users/sainishwanth/AndroidStudioProjects/LanguageTranslator/app/src/main/AndroidManifest.xml:11:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.LanguageTranslator" >
+22-->/Users/sainishwanth/AndroidStudioProjects/LanguageTranslator/app/src/main/AndroidManifest.xml:12:9-56
+23        <activity
+23-->/Users/sainishwanth/AndroidStudioProjects/LanguageTranslator/app/src/main/AndroidManifest.xml:13:9-16:15
+24            android:name="com.example.languagetranslator.Translate_main"
+24-->/Users/sainishwanth/AndroidStudioProjects/LanguageTranslator/app/src/main/AndroidManifest.xml:14:13-43
+25            android:exported="false" />
+25-->/Users/sainishwanth/AndroidStudioProjects/LanguageTranslator/app/src/main/AndroidManifest.xml:15:13-37
+26        <activity
+26-->/Users/sainishwanth/AndroidStudioProjects/LanguageTranslator/app/src/main/AndroidManifest.xml:17:9-25:20
+27            android:name="com.example.languagetranslator.MainActivity"
+27-->/Users/sainishwanth/AndroidStudioProjects/LanguageTranslator/app/src/main/AndroidManifest.xml:18:13-41
+28            android:exported="true" >
+28-->/Users/sainishwanth/AndroidStudioProjects/LanguageTranslator/app/src/main/AndroidManifest.xml:19:13-36
+29            <intent-filter>
+29-->/Users/sainishwanth/AndroidStudioProjects/LanguageTranslator/app/src/main/AndroidManifest.xml:20:13-24:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->/Users/sainishwanth/AndroidStudioProjects/LanguageTranslator/app/src/main/AndroidManifest.xml:21:17-69
+30-->/Users/sainishwanth/AndroidStudioProjects/LanguageTranslator/app/src/main/AndroidManifest.xml:21:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->/Users/sainishwanth/AndroidStudioProjects/LanguageTranslator/app/src/main/AndroidManifest.xml:23:17-77
+32-->/Users/sainishwanth/AndroidStudioProjects/LanguageTranslator/app/src/main/AndroidManifest.xml:23:27-74
+33            </intent-filter>
+34        </activity>
+35
+36        <provider
+36-->[androidx.emoji2:emoji2:1.0.0] /Users/sainishwanth/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+37            android:name="androidx.startup.InitializationProvider"
+37-->[androidx.emoji2:emoji2:1.0.0] /Users/sainishwanth/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+38            android:authorities="com.example.languagetranslator.androidx-startup"
+38-->[androidx.emoji2:emoji2:1.0.0] /Users/sainishwanth/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+39            android:exported="false" >
+39-->[androidx.emoji2:emoji2:1.0.0] /Users/sainishwanth/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+40            <meta-data
+40-->[androidx.emoji2:emoji2:1.0.0] /Users/sainishwanth/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+41                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+41-->[androidx.emoji2:emoji2:1.0.0] /Users/sainishwanth/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+42                android:value="androidx.startup" />
+42-->[androidx.emoji2:emoji2:1.0.0] /Users/sainishwanth/.gradle/caches/transforms-3/2c96a293c0a835e94af1ddc4d74ff22d/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+43            <meta-data
+43-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sainishwanth/.gradle/caches/transforms-3/bdba8a1b7f77d959878d5a52670cf96f/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+44                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+44-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sainishwanth/.gradle/caches/transforms-3/bdba8a1b7f77d959878d5a52670cf96f/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+45                android:value="androidx.startup" />
+45-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/sainishwanth/.gradle/caches/transforms-3/bdba8a1b7f77d959878d5a52670cf96f/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+46        </provider>
+47    </application>
+48
+49</manifest>
