@@ -65,8 +65,8 @@ public class Translate_main extends AppCompatActivity {
         con.setRequestProperty("User-Agent", "Mozilla/5.0");
         BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
         String inputLine;
-        while ((inputLine = in.readLine()) != null) {
-            response.append(inputLine);
+        for (String line; (line = in.readLine()) != null; ) {
+            response.append(line).append('\n');
         }
         return response.toString();
     }
