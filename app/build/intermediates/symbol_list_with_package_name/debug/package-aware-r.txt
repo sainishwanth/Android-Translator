@@ -63,6 +63,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array language
 attr SharedValue
 attr SharedValueId
 attr actionBarDivider
@@ -2514,7 +2515,6 @@ id BOTTOM_START
 id CTRL
 id Edit
 id FUNCTION
-id FromLang
 id FromText
 id META
 id NO_DEBUG
@@ -2525,7 +2525,6 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
-id ToLang
 id ToText
 id TranslateButton
 id Translated
@@ -2707,6 +2706,7 @@ id flip
 id floating
 id forever
 id fragment_container_view_tag
+id fromspinner
 id frost
 id ghost_view
 id ghost_view_holder
@@ -2962,6 +2962,7 @@ id title_template
 id toggle
 id top
 id topPanel
+id tospinner
 id touch_outside
 id transitionToEnd
 id transitionToStart

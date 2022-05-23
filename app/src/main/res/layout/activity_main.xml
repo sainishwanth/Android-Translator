@@ -40,31 +40,31 @@
         app:layout_constraintVertical_bias="0.191"
         tools:ignore="MissingConstraints" />
 
-    <EditText
-        android:id="@+id/FromLang"
-        android:layout_width="181dp"
-        android:layout_height="65dp"
-        android:imeOptions="actionDone"
+    <Spinner
+        android:id="@+id/fromspinner"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.282"
+        app:layout_constraintHorizontal_bias="0.252"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.327"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintVertical_bias="0.31" />
 
-    <EditText
-        android:id="@+id/ToLang"
-        android:layout_width="186dp"
-        android:layout_height="66dp"
-        android:imeOptions="actionDone"
+    <Spinner
+        android:id="@+id/tospinner"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.291"
+        app:layout_constraintHorizontal_bias="0.264"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.666"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintVertical_bias="0.683" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/submit"

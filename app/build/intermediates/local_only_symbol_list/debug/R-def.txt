@@ -1,5 +1,6 @@
 R_DEF: Internal format may change without notice
 local
+array language
 color black
 color purple_200
 color purple_500
@@ -12,14 +13,14 @@ drawable backgroundimg
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 id Edit
-id FromLang
 id FromText
-id ToLang
 id ToText
 id TranslateButton
 id Translated
+id fromspinner
 id submit
 id textView2
+id tospinner
 layout activity_main
 layout activity_translate_main
 mipmap ic_launcher
