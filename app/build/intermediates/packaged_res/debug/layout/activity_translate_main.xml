@@ -24,8 +24,8 @@
 
     <EditText
         android:id="@+id/Edit"
-        android:layout_width="406dp"
-        android:layout_height="259dp"
+        android:layout_width="404dp"
+        android:layout_height="262dp"
         android:layout_marginBottom="428dp"
         android:hint="Enter Here"
         android:textSize="25dp"
@@ -45,26 +45,29 @@
         android:drawableLeft="@drawable/arrow"
         android:text="submit"
         android:textColor="@color/black"
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.486"
+        android:imeOptions="actionDone"/>
 
     <TextView
         android:id="@+id/Translated"
         android:layout_width="404dp"
         android:layout_height="272dp"
         android:hint="Translated Text"
+        android:imeOptions="actionDone"
+        android:textColor="@color/black"
         android:textSize="25dp"
         android:textStyle="italic"
-        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.906"
-        android:imeOptions="actionDone"/>
+        app:layout_constraintVertical_bias="0.965" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

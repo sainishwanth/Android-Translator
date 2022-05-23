@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LanguageTranslator</string>
+    <string name="app_name">Language Translator</string>
 
     <string-array name="language">
         <item>Select</item>
