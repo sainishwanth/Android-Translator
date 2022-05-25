@@ -37,7 +37,11 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             public void onClick(View view) {
                 if (fromString.equals("Select") || toString.equals("Select")) {
                     Toast.makeText(MainActivity.this, "Required Fields Cannot be Empty", Toast.LENGTH_SHORT).show();
-                } else {
+                }
+                else if (fromString.equals(toString)){
+                    Toast.makeText(MainActivity.this, "Please select unique languages.", Toast.LENGTH_SHORT).show();
+                }
+                else {
                     switch (fromString){
                         case "English":
                             fromString = "en";
